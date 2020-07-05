@@ -305,7 +305,7 @@ textarea {
 }
 /* footer */
 footer {
-    background: #1C1C1C;
+    background: linear-gradient(to right, #424242, black);
 }
 .hydro {
     flex-basis: 35%;
@@ -313,3 +313,35 @@ footer {
 .sec-5 {
     margin: 80px 0;
 }
+.sec-5 h3, .sec-5 h2 {
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.sec-5 p {
+    color: #CACACA;
+}
+.sec-5 a, .sec-5 address{
+    font-size: 13px;
+    color: #CACACA;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.h3-hr {
+    border: 0.5px solid rgba(255, 255, 255, 0.089);
+    }
+    /* footer bottom */
+.copy-right {
+        padding : 40px 0 60px 0 ;
+        color: #CACACA;
+        font-size: 14px;
+        font-weight: 500;
+}
+    
+.footer-nav li {
+        margin-left: 30px;
+}
+.copy-right a {
+    color: #CACACA;
+}
+    
+    
